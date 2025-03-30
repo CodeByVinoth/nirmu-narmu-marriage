@@ -1,96 +1,548 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirmu❤️Narmu Marriage Photos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: url('ab.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            color: white;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            padding: 30px 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: heartbeat 1.5s infinite alternate;
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.05); }
+        }
+
+        .heart {
+            color: #ff4d6d;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.7; }
+            50% { opacity: 1; }
+            100% { opacity: 0.7; }
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            animation: slideInUp 1s ease-out;
+        }
+
+        @keyframes slideInUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 0.9; }
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            color: white;
+            cursor: pointer;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            min-width: 250px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: 0.5s;
+        }
+
+        .btn:hover:before {
+            left: 100%;
+        }
+
+        .btn:hover {
+            transform: translateY(-5px) scale(1.03);
+            background: rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery-page {
+            display: none;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            margin-top: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transform: scale(0.9);
+            opacity: 0;
+            transition: all 0.5s ease;
+        }
+
+        .gallery-page.active {
+            display: block;
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        .content-area {
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content-area h3 {
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        .drive-link {
+            display: inline-block;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #1e3c72;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            margin: 10px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .drive-link:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background: linear-gradient(to top, rgba(30, 60, 114, 0.2), transparent);
+            z-index: -1;
+            transition: height 0.3s ease;
+        }
+
+        .drive-link:hover:after {
+            height: 100%;
+        }
+
+        .drive-link:hover {
+            transform: scale(1.05) translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .teaser-container {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            animation: fadeInUp 1s ease-out;
+            transform-origin: center bottom;
+        }
+
+        @keyframes fadeInUp {
+            from { transform: translateY(40px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .teaser-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .teaser-title:after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 2px;
+            background: #ff4d6d;
+            transition: width 0.5s ease;
+        }
+
+        .teaser-container:hover .teaser-title:after {
+            width: 80%;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            font-size: 2.5rem;
+            color: white;
+            transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+            position: relative;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.2) rotate(5deg);
+        }
+
+        .social-icon:before {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%) scale(0);
+            background: rgba(0, 0, 0, 0.7);
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.7rem;
+            opacity: 0;
+            transition: all 0.3s ease;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+
+        .social-icon:hover:before {
+            transform: translateX(-50%) scale(1);
+            opacity: 1;
+        }
+
+        .fa-youtube {
+            color: #FF0000;
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+
+        .fa-instagram {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(131, 58, 180, 0.3);
+        }
+
+        .back-btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #ff3333;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(255, 51, 51, 0.3);
+        }
+
+        .back-btn:hover {
+            background: #ff0000;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(255, 0, 0, 0.4);
+        }
+
+        /* Float animation for buttons */
+        .btn, .drive-link {
+            animation: float 3s ease-in-out infinite;
+            animation-delay: calc(var(--order) * 0.2s);
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Particle effects */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #fff;
+            border-radius: 50%;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            to { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .btn {
+                min-width: 200px;
+                padding: 12px 20px;
+                font-size: 1rem;
+            }
+            
+            .button-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    <div class="container">
+        <header class="animate__animated animate__fadeIn">
+            <h1>Nirmu<span class="heart">❤️</span>Narmu Marriage Photos</h1>
+            <div class="subtitle">Celebrating Our Love Story</div>
+        </header>
+
+        <div class="button-container">
+            <button class="btn animate__animated animate__fadeInUp" style="--order: 1;" onclick="openGallery('engagement')">Engagement Photos</button>
+            <button class="btn animate__animated animate__fadeInUp" style="--order: 2;" onclick="openGallery('marriage')">Marriage Photos</button>
+            <button class="btn animate__animated animate__fadeInUp" style="--order: 3;" onclick="openGallery('reception')">Reception Photos</button>
+        </div>
+
+        <!-- Engagement Gallery -->
+        <div id="engagement-gallery" class="gallery-page">
+            <div class="content-area">
+                <h3 class="animate__animated animate__fadeIn">Engagement Photos & Videos</h3>
+                <a href="https://drive.google.com/drive/folders/1U2zbNBAlryW631rVJZuO7bV0QlGh2g-y?usp=drive_link" class="drive-link animate__animated animate__fadeInUp" style="--order: 1;" target="_blank">Engagement Photo</a>
+            </div>
+            <button class="back-btn animate__animated animate__fadeIn" onclick="closeGallery()">Back to Main Menu</button>
+        </div>
+
+        <!-- Marriage Gallery -->
+        <div id="marriage-gallery" class="gallery-page">
+            <div class="content-area">
+                <h3 class="animate__animated animate__fadeIn">Marriage Photos & Videos</h3>
+                <a href="https://drive.google.com/drive/folders/16N-y00c9KP5cKD3aQGxeBWrsIgRBBaqS?usp=drive_link" class="drive-link animate__animated animate__fadeInUp" style="--order: 1;" target="_blank">Marriage Photo</a>
+                <a href="https://drive.google.com/drive/folders/1sG2j_QN_UhBTQIu1VQ7WnbAMRiQKjeat?usp=drive_link" class="drive-link animate__animated animate__fadeInUp" style="--order: 2;" target="_blank"> Marriage Candid Photos </a>
+
+            </div>
+            <button class="back-btn animate__animated animate__fadeIn" onclick="closeGallery()">Back to Main Menu</button>
+        </div>
+
+        <!-- Reception Gallery -->
+        <div id="reception-gallery" class="gallery-page">
+            <div class="content-area">
+                <h3 class="animate__animated animate__fadeIn">Reception Photos & Videos</h3>
+                <a href="https://drive.google.com/drive/folders/1VNvTkNVa-_czMpqsZnARkFC3DaggFemW?usp=drive_link" class="drive-link animate__animated animate__fadeInUp" style="--order: 2;" target="_blank">Reception photos</a>
+                <a href="https://drive.google.com/drive/folders/13LCTeghzKy05jNWHRU8UUMmllUGLQYL5?usp=drive_link" class="drive-link animate__animated animate__fadeInUp" style="--order: 2;" target="_blank"> Candid Photos 1</a>
+                <a href="https://drive.google.com/drive/folders/1dFOE7Y1MN66ENr1XD7vOgS8wQxhpgZyj?usp=drive_link" class="drive-link animate__animated animate__fadeInUp" style="--order: 2;" target="_blank"> Candid Photos 2</a>
+                <a href="https://drive.google.com/drive/folders/1VFUIK5i9nVbxuByN3YMmlZJibGHdzeU7?usp=drive_link" class="drive-link animate__animated animate__fadeInUp" style="--order: 2;" target="_blank">  Traditional food photos </a>
+
+            </div>
+            <button class="back-btn animate__animated animate__fadeIn" onclick="closeGallery()">Back to Main Menu</button>
+        </div>
+
+        <!-- Marriage Teaser Section -->
+        <div class="teaser-container">
+
+            <div class="teaser-title">Marriage Teaser</div>
+            <div class="social-icons">
+                <a href="https://youtu.be/uVTfUDIUr6A?si=v5leY20ORANOTcNt" target="_blank" class="social-icon" data-tooltip="Watch on YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/reel/DDROSHXvbkf/" target="_blank" class="social-icon" data-tooltip="View on Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    <script>
+        function openGallery(type) {
+            // Hide all galleries first
+            document.querySelectorAll('.gallery-page').forEach(gallery => {
+                gallery.classList.remove('active');
+            });
+            
+            // Hide main buttons
+            document.querySelector('.button-container').style.display = 'none';
+            
+            // Show selected gallery
+            document.getElementById(type + "-gallery").classList.add('active');
+            
+            // Add animation to links
+            const links = document.querySelectorAll('#' + type + '-gallery .animate__animated');
+            links.forEach((link, index) => {
+                link.style.animationDelay = (index * 0.1) + 's';
+                if (link.classList.contains('animate__fadeIn')) {
+                    link.classList.remove('animate__fadeIn');
+                    setTimeout(() => {
+                        link.classList.add('animate__fadeIn');
+                    }, 10);
+                }
+                if (link.classList.contains('animate__fadeInUp')) {
+                    link.classList.remove('animate__fadeInUp');
+                    setTimeout(() => {
+                        link.classList.add('animate__fadeInUp');
+                    }, 10);
+                }
+            });
+        }
+
+        function closeGallery() {
+            // Hide all galleries
+            document.querySelectorAll('.gallery-page').forEach(gallery => {
+                gallery.classList.remove('active');
+            });
+            
+            // Show main buttons again
+            document.querySelector('.button-container').style.display = 'flex';
+            
+            // Apply animations again
+            const buttons = document.querySelectorAll('.button-container .animate__animated');
+            buttons.forEach((btn, index) => {
+                btn.style.animationDelay = (index * 0.1) + 's';
+                btn.classList.remove('animate__fadeInUp');
+                setTimeout(() => {
+                    btn.classList.add('animate__fadeInUp');
+                }, 10);
+            });
+            
+            // Create particles
+            createParticles();
+        }
+
+        // Replace these with your actual links
+        function setupLinks() {
+            // Google Drive links
+            const driveLinks = document.querySelectorAll('.drive-link');
+            driveLinks.forEach(link => {
+                // You would replace these with your actual Google Drive links
+                if (link.textContent.includes('Engagement Photos')) {
+                    link.href = 'YOUR_ENGAGEMENT_PHOTOS_DRIVE_LINK';
+                } else if (link.textContent.includes('Engagement Videos')) {
+                    link.href = 'YOUR_ENGAGEMENT_VIDEOS_DRIVE_LINK';
+                } else if (link.textContent.includes('Marriage Photos')) {
+                    link.href = 'YOUR_MARRIAGE_PHOTOS_DRIVE_LINK';
+                } else if (link.textContent.includes('Marriage Videos')) {
+                    link.href = 'YOUR_MARRIAGE_VIDEOS_DRIVE_LINK';
+                } else if (link.textContent.includes('Reception Photos')) {
+                    link.href = 'YOUR_RECEPTION_PHOTOS_DRIVE_LINK';
+                } else if (link.textContent.includes('Reception Videos')) {
+                    link.href = 'YOUR_RECEPTION_VIDEOS_DRIVE_LINK';
+                }
+            });
+
+            // Social media links
+            document.querySelector('.fa-youtube').parentElement.href = 'https://youtu.be/uVTfUDIUr6A?si=v5leY20ORANOTcNt';
+            document.querySelector('.fa-instagram').parentElement.href = 'https://www.instagram.com/reel/DDROSHXvbkf/?igsh=dmNjbjhnMDdidnBj';
+        }
+        
+        // Create floating particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            particlesContainer.innerHTML = '';
+            
+            const colors = ['#ff4d6d', '#ffffff', '#ffb6c1', '#ffd700', '#ff69b4'];
+            
+            for (let i = 0; i < 50; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'confetti';
+                particle.style.left = Math.random() * 100 + 'vw';
+                particle.style.top = -10 + 'px';
+                particle.style.width = (Math.random() * 8 + 5) + 'px';
+                particle.style.height = particle.style.width;
+                particle.style.opacity = Math.random() * 0.6 + 0.4;
+                particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+                particle.style.animationDuration = (Math.random() * 5 + 3) + 's';
+                particle.style.animationDelay = (Math.random() * 2) + 's';
+                
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Initialize the page
+        window.onload = function() {
+            setupLinks();
+            createParticles();
+            
+            // Set animation delays for initial buttons
+            const buttons = document.querySelectorAll('.button-container .btn');
+            buttons.forEach((btn, index) => {
+                btn.style.animationDelay = (index * 0.2) + 's';
+            });
+            
+            // Add scroll reveal effect
+            window.addEventListener('scroll', function() {
+                const elements = document.querySelectorAll('.teaser-container');
+                elements.forEach(element => {
+                    const position = element.getBoundingClientRect();
+                    if (position.top < window.innerHeight) {
+                        element.classList.add('animate__animated', 'animate__fadeInUp');
+                    }
+                });
+            });
+        };
+        
+        // Recreate particles occasionally
+        setInterval(createParticles, 15000);
+    </script>
+</body>
 </html>
